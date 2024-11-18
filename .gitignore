@@ -1,0 +1,17 @@
+# Ignore all object files
+*.o
+
+# Ignore other common build outputs
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.d
+*.x64.o
+*.arm64.o
+
+# Ignore specific directories (e.g., build directories)
+build/
+dist/
+

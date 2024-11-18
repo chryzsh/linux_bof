@@ -22,7 +22,7 @@ typedef struct {
     char* original;
     char* buffer;
     int length;
-    nt size;
+    int size;
 } formatp;
 
 void BeaconFormatAlloc(formatp* format, int maxsz);
